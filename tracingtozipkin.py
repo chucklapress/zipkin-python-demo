@@ -14,8 +14,7 @@ ze = ZipkinExporter(service_name="simulated_calls",
                                 host_name='localhost',
                                 port=9411,
                                 endpoint='/api/v2/spans')
-# et the tracer to use the exporter
-# Configure 100% sample rate, otherwise, few traces will be sampled.
+# set the tracer to use the exporter
 # Get the global singleton Tracer object
 tracer = Tracer(exporter=ze, sampler=AlwaysOnSampler())
 
