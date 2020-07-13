@@ -21,6 +21,9 @@ pip install requirements.txt
 ```python
 python tracingtozipkin.py
 ```
+## Tracing information
+
+open browser window and go to [zipkin dashboard](http://localhost:9411/zipkin/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
