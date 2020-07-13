@@ -1,5 +1,5 @@
 import os
-#from datetime import datetime
+from datetime import datetime
 import sys
 from random import randint
 from time import sleep
